@@ -70,7 +70,13 @@ La deuxième exécutera simplement l'application du bot.
 {% tabs %}
 {% tab title="NPM" %}
 ```text
-npm run dev
+npm run start
+```
+{% endtab %}
+
+{% tab title="YARN" %}
+```
+yarn start
 ```
 {% endtab %}
 {% endtabs %}

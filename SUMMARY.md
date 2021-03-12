@@ -6,5 +6,6 @@
 
 * [Démarrage](basic-usage/demarrage.md)
 * [Structure de l'application](basic-usage/structure-de-lapplication.md)
-* [Commands](basic-usage/commands.md)
+* [Commandes](basic-usage/commands.md)
+* [Evènements](basic-usage/evenements.md)
 

@@ -2,7 +2,7 @@
 description: Créez vos propres commande en 10 secondes.
 ---
 
-# Commands
+# Commandes
 
 La conception d'un bot discord passe la quasi-totalité du temps pat le développement de commandes. Ces commandes ont pour but d'exécuter certaines actions par la modération ou la communauté.
 

@@ -16,3 +16,5 @@ Création, Structurel, Comportemental ou encore singleton, vous pouvez enfin cho
 * Structure propre et scalable
 * Ergonomie du développeur
 
+C'est maintenant à vous de jouer !
+

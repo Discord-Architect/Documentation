@@ -9,7 +9,7 @@ Créer un évènement avec le framework est vraiment rapide.
 Ouvrez un nouveau terminal dans votre projet et écrivez la commande suivante :
 
 ```bash
-node arch make:event <nom de l'évènement>
+architect make:event <nom de l'évènement>
 ```
 
 Un fichier va être créé à la racine de votre projet avec la structure suivante :
@@ -18,7 +18,7 @@ Un fichier va être créé à la racine de votre projet avec la structure suivan
 import { Event, BaseEvent } from '@discord-architect/core'
 
 @Event('event')
-export default class Tdets implements BaseEvent {
+export default class Foo implements BaseEvent {
 	public async run(...args: Array<any>): Promise<void> {
 		// Please go to the documentation in order to know the parameters you can use
 		// Your code here

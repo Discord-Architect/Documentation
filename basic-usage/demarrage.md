@@ -10,15 +10,37 @@ Certains frameworks ou librairies tel que React utilisent`yarn create react-app 
 
 Entrons dans le vif du sujet. Afin de pouvoir développer avec le framework, vous devez avoir installé [NodeJS](https://nodejs.org/en) \(v.14+\) sur votre environnement de développement.
 
-Ensuite, vous devrez cloner le projet initial vierge qui se trouve [ici](https://github.com/Discord-Architect/Architect).
+Ensuite, installez globalement le CLI Arch du bot.
+
+{% tabs %}
+{% tab title="NPM" %}
+```bash
+npm install -g @discord-architect/arch
+```
+{% endtab %}
+
+{% tab title="YARN" %}
+```
+yarn global add @discord-architect/arch
+```
+{% endtab %}
+{% endtabs %}
+
+{% hint style="danger" %}
+Il est possible que l'utilisation de `YARN` afin d'ajouter le CLI de manière global ne fonctionne pas correctement, dans ce cas, veuillez utiliser `NPM`
+{% endhint %}
+
+Le module `@discord-architect/arch` est un CLI qui de la même manière qu'Artisan pour Laravel, vous permettra d'interagir rapidement avec les fonctionnalités du bot.
+
+Vous pouvez maintenant initialiser un projet très facilement grâce à la commande suivante :
 
 ```bash
-git clone git@github.com:Discord-Architect/Architect.git <nom de votre projet>
+architect create-project
 ```
 
-Une fois fait, dupliquez le fichier `.env.example` et renommez-le `.env` 
+Répondez aux questions et un projet vierge sera initialisé en fonction des éléments que vous aurez définis ces dernières.
 
-Ce fichier doit posséder au minimum les donnés suivantes :
+Un fichier `.env` sera créé, ce fichier doit posséder au minimum les donnés suivantes :
 
 ```text
 CLIENT_PREFIX=""

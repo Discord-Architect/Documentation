@@ -11,10 +11,16 @@ Créer une commande avec le framework est très très simple.
 Ouvrez un nouveau terminal dans votre projet et écrivez la commande suivante :
 
 ```bash
-node arch make:command <nom de votre command>
+architect make:file
 ```
 
-Un fichier va être créé à la racine de votre projet avec la structure suivante :
+Choisissez de créer une commande puis répondez aux questions qui vous seront posés. Il est important de noter que lorsque vous définirez le nom du fichier, vous pouvez "placer" celui-ci dans des dossiers en spécifiant un path directory en plus du nom du fichier comme sur l'exemple suivant :
+
+```text
+Dossier/Sous-dossier/Fichier
+```
+
+Un fichier va être créé à l'emplacement spécifié sinon, à la racine de votre projet tout en ayant la structure suivante :
 
 ```typescript
 import { BaseCommand, Command } from '@discord-architect/core'

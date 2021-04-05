@@ -10,7 +10,7 @@ Certains frameworks ou librairies tel que React utilisent`yarn create react-app 
 
 Entrons dans le vif du sujet. Afin de pouvoir développer avec le framework, vous devez avoir installé [NodeJS](https://nodejs.org/en) \(v.14+\) sur votre environnement de développement.
 
-Ensuite, installez globalement le CLI Arch du bot.
+Ensuite, installez globalement le CLI Architect du bot.
 
 {% tabs %}
 {% tab title="NPM" %}

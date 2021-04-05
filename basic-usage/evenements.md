@@ -4,22 +4,28 @@ description: 'Les évènements, la base de Discord.js'
 
 # Evènements
 
-Créer un évènement avec le framework est vraiment rapide.
+Créer une commande avec le framework est très très simple.
 
 Ouvrez un nouveau terminal dans votre projet et écrivez la commande suivante :
 
 ```bash
-architect make:event <nom de l'évènement>
+architect make:file
 ```
 
-Un fichier va être créé à la racine de votre projet avec la structure suivante :
+Choisissez de créer un évènement puis répondez aux questions qui vous seront posés. Il est important de noter que lorsque vous définirez le nom du fichier, vous pouvez "placer" celui-ci dans des dossiers en spécifiant un path directory en plus du nom du fichier comme sur l'exemple suivant :
+
+```text
+Dossier/Sous-dossier/Fichier
+```
+
+Un fichier va être créé à l'emplacement spécifié sinon, à la racine de votre projet tout en ayant la structure suivante :
 
 ```typescript
 import { Event, BaseEvent } from '@discord-architect/core'
 
-@Event('event')
+@Event('event selectionné')
 export default class Foo implements BaseEvent {
-	public async run(...args: Array<any>): Promise<void> {
+	public async run(args: Array<any>): Promise<void> {
 		// Please go to the documentation in order to know the parameters you can use
 		// Your code here
 	}

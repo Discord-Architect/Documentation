@@ -10,3 +10,7 @@
 * [Commandes](basic-usage/commands.md)
 * [Evènements](basic-usage/evenements.md)
 
+## Modules
+
+* [Colorize](modules/colorize.md)
+

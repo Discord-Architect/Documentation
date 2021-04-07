@@ -35,6 +35,8 @@ const client = useClient()
 console.log(client)
 ```
 
+Le client retourné vous donne se [résultat](https://discord.js.org/#/docs/main/stable/class/Client).
+
 ### UseCommands
 
 Si vous souhaitez récupérer l'instance de votre client discord et ainsi récupérer le nombre de membres sur l'ensemble des serveurs sur lesquels se trouvent votre bot.

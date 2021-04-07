@@ -12,5 +12,6 @@
 
 ## Modules
 
+* [Hooks](modules/hooks.md)
 * [Colorize](modules/colorize.md)
 

@@ -24,8 +24,6 @@ yarn add @discord-architect/hooks
 
 Vous pouvez utiliser les couleurs du module comme ci-dessous :
 
-### 
-
 ### UseClient
 
 Si vous souhaitez récupérer l'instance de votre client discord et ainsi récupérer le nombre de membres sur l'ensemble des serveurs sur lesquels se trouvent votre bot.

@@ -35,6 +35,10 @@ export default class TestCommand implements BaseCommand {
 
 ```
 
+{% hint style="info" %}
+Les `prerequisites` définis dans la clé `require` sont exécutés dans l'ordre d'écriture.
+{% endhint %}
+
 Pour déclarer une classe comme étant une commande, il vous faut utiliser le décorateur `@Command()` et lui passer les arguments suivants :
 
 ```typescript

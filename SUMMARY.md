@@ -9,9 +9,14 @@
 * [CLI](basic-usage/cli.md)
 * [Commandes](basic-usage/commands.md)
 * [Evènements](basic-usage/evenements.md)
+* [Prerequisites](basic-usage/prerequisites.md)
 
 ## Modules
 
 * [Hooks](modules/hooks.md)
 * [Colorize](modules/colorize.md)
+
+## Exemples
+
+* [Prerequisites](exemples/prerequisites.md)
 

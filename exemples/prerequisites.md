@@ -43,6 +43,6 @@ export default class Foo implements BaseCommand {
 {% endcode %}
 
 {% hint style="info" %}
-Dans la déclaration de votre prerequisite au sein de votre commande \(pour cet exemple\), le nombre 1 correspond à la variable `count` de `FooPrerequisite`.
+Dans la déclaration de votre prerequisite au sein de votre commande \(pour cet exemple\), le chiffre 1 correspond à la variable `count` de `FooPrerequisite`.
 {% endhint %}
 

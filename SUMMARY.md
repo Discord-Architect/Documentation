@@ -9,6 +9,7 @@
 * [CLI](basic-usage/cli.md)
 * [Commandes](basic-usage/commands.md)
 * [Evènements](basic-usage/evenements.md)
+* [Middlewares](basic-usage/middlewares.md)
 * [Prerequisites](basic-usage/prerequisites.md)
 
 ## Modules

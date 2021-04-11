@@ -14,7 +14,7 @@ Ouvrez un nouveau terminal dans votre projet et écrivez la commande suivante :
 architect make:file
 ```
 
-Choisissez de créer une commande puis répondez aux questions qui vous seront posés. Il est important de noter que lorsque vous définirez le nom du fichier, vous pouvez "placer" celui-ci dans des dossiers en spécifiant un path directory en plus du nom du fichier comme sur l'exemple suivant :
+Choisissez de créer une `commande` puis répondez aux questions qui vous seront posés. Il est important de noter que lorsque vous définirez le nom du fichier, vous pouvez "placer" celui-ci dans des dossiers en spécifiant un path directory en plus du nom du fichier comme sur l'exemple suivant :
 
 ```text
 Dossier/Sous-dossier/Fichier

@@ -36,7 +36,3 @@ export default class Foo implements BaseMiddleware {
 }
 ```
 
-{% hint style="info" %}
-Il est important de souligner que les arguments de l'évènement sélectionné sont disponibles sur la documentation [discord.js](https://discord.js.org) en y recherchant l'évènement utilisé
-{% endhint %}
-

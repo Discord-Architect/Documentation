@@ -1,5 +1,5 @@
 ---
-description: Le premier framework pour concevoir vos bots discord avec Typescript
+description: Le premier framework pour concevoir rapidement vos bots discord en Typescript.
 ---
 
 # Discord Architect

@@ -9,7 +9,7 @@ Dans cet exemple, nous allons voir comment créer un pare-feu sur le nombre de p
 import { BasePrerequisite, Prerequisite, PrerequisiteContext } from '@discord-architect/core'
 
 @Prerequisite({ name: '(?<count>\d+)-args' })
-export default class T implements BasePrerequisite {
+export default class Foo implements BasePrerequisite {
  public async isValid(context: PrerequisiteContext): Promise<boolean> {
  
   // Get persed number from REGEX
